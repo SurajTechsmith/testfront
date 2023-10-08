@@ -1,0 +1,52 @@
+/* ModalForm.js */
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  
+  .modal input {
+    width: 100%;
+    padding: 8px 0px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .modal-buttons button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
